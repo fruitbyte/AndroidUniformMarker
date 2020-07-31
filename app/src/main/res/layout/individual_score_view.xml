@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cadetTitle"
+            android:text="Cadet Name"
+            android:textSize="35sp"
+            android:fontFamily="@font/googlesans_bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="15dp"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cadetFlight"
+        android:text="Flight"
+        android:fontFamily="@font/googlesans_regular"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:"
+        android:fontFamily="@font/googlesans_regular"
+        android:textSize="40sp"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#"
+        android:id="@+id/cadetScore"
+        android:fontFamily="@font/googlesans_regular"
+        android:textSize="70sp"
+        android:layout_margin="40dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Things To Fix:"
+        android:fontFamily="@font/googlesans_regular"
+        android:textSize="40sp"
+        android:layout_margin="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fix Message"
+        android:fontFamily="@font/googlesans_regular"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:layout_margin="40dp"
+        android:id="@+id/cadetFixMessage"/>
+
+</LinearLayout>

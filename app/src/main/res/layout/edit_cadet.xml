@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last"
+                android:textSize="30sp"
+                android:fontFamily="@font/googlesans_bold"
+                android:id="@+id/cadetEditLast"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First"
+                android:textSize="30sp"
+                android:fontFamily="@font/googlesans_bold"
+                android:id="@+id/cadetEditFirst"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flight"
+                android:textSize="30sp"
+                android:fontFamily="@font/googlesans_bold"
+                android:id="@+id/cadetEditFlight"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Only fields that require adjusting need to be filled (fields may be left blank)."
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Name: "
+                android:fontFamily="@font/googlesans_regular"
+                android:textSize="25dp"/>
+            <EditText
+                android:id="@+id/last_field"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name: "
+                android:fontFamily="@font/googlesans_regular"
+                android:textSize="25dp"/>
+            <EditText
+                android:id="@+id/first_field"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flight (number only): "
+                android:inputType="number"
+                android:fontFamily="@font/googlesans_regular"
+                android:textSize="25dp"/>
+            <EditText
+                android:id="@+id/flight_field"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update info"
+            android:fontFamily="@font/googlesans_regular"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/cardview_light_background"
+            android:id="@+id/updateButton"
+            android:onClick="updateBtnClick"
+            android:textSize="20sp"
+            android:padding="15dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Cadet"
+            android:fontFamily="@font/googlesans_regular"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/cardview_light_background"
+            android:id="@+id/deleteButton"
+            android:onClick="deleteBtnClick"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:padding="15dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

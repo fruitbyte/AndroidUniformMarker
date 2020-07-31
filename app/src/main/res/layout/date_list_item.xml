@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="3dp"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/cardview_flight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_regular"
+                android:paddingTop="5dp"
+                android:text="@string/actualFlight" />
+
+            <TextView
+                android:id="@+id/cardview_last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_regular"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                android:text="@string/actualLast" />
+
+            <TextView
+                android:id="@+id/cardview_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_regular"
+                android:paddingTop="5dp"
+                android:text="@string/actualFirst" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_regular"
+                android:paddingTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="Score: " />
+
+            <TextView
+                android:id="@+id/cardview_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_regular"
+                android:paddingTop="5dp"
+                android:text="@string/actualScore" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="0.1sp"
+                android:id="@+id/cardview_fixmessage"
+                android:textColor="@color/cardview_light_background"
+                />
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

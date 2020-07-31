@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "96524978481",
+    "firebase_url": "https://uniform-marking-app.firebaseio.com",
+    "project_id": "uniform-marking-app",
+    "storage_bucket": "uniform-marking-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96524978481:android:cb4dea9c9944f6c6",
+        "android_client_info": {
+          "package_name": "com.won_tonsoup.uniformmarker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96524978481-17fetj1hoi0kqf08h3ai9m3pk2nf9968.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj1gbjSZnizHi_fPghZ7Ek2w2R3L55bxQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

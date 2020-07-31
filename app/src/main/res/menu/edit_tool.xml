@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/filter_search_edit"
+        android:title="@string/search"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:id="@+id/add_button"
+        app:showAsAction="always"
+        android:title="@string/new_cadet"
+        android:icon="@drawable/ic_add_black_24dp"
+        />
+
+</menu>
+
